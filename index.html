@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+
+    <style>
+      a {
+        text-decoration: none;
+        color: red;
+      }
+      /*pseudo class*/
+      html {
+        font-size: 10px;
+        height: 100vh;
+      }
+
+      a:hover {
+        color: green;
+      }
+      a:visited {
+        color: brown;
+      }
+
+      :active {
+        color: orange;
+      }
+      a:link {
+      }
+      section {
+        background-color: black;
+        background-color: #000;
+        background-color: #2c1212;
+        background-color: hsl(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        font-size: 2em;
+        color: white;
+        height: 20vh;
+      }
+
+      h3 {
+        background-color: hsl(0, 64%, 40%);
+        font-size: 5vw;
+      }
+      .text {
+        background-color: blue;
+        /*0 is see through 1 is solid*/
+        opacity: 0.5;
+        width: 60vw;
+      }
+      footer {
+        background-color: rgba(91, 55, 55, 0.8);
+      }
+
+      #hello {
+        width: 100%;
+        font-size: 3rem;
+        height: 200px;
+        background-color: lime;
+      }
+
+      .sec2 {
+        width: 50%;
+        font-size: 3vw;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">home</a>
+      <a href="./contact.html">contact</a>
+      <a href="./blog.html">blog</a>
+    </nav>
+    <br />
+    <main>
+      <p id="hello">hello world</p>
+      <section>
+        <h3>about me</h3>
+        <p class="text">i am a super web developer</p>
+      </section>
+      <section>
+        <div class="sec2">hello</div>
+        <div>hello 2</div>
+      </section>
+    </main>
+
+    <footer>this is our copyright 2023</footer>
+  </body>
+</html>
